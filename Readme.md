@@ -37,7 +37,7 @@ A execução leva cerca de 10 segundos e salva todos os resultados na pasta `res
 
 Opções:
 
-- `--detalhar ID`: mostra o passo a passo da tupla de teste de número ID. Para cada raio, aparecem os atributos originais, as contagens de cada classe no raio e a predição do r-N. Para cada ε, aparecem as probabilidades do mecanismo Exponencial e a classe sorteada. Usada na demo, por exemplo: `python3 trabalho_exponencial.py --detalhar 0`
+- `--detalhar ID`: mostra o passo a passo da tupla de teste de número ID. Primeiro aparecem os atributos originais da tupla. Depois, para cada raio, aparecem as contagens de cada classe no raio e a predição do r-N e, para cada ε, as probabilidades do mecanismo Exponencial e a classe sorteada. Usada na demo, por exemplo: `python3 trabalho_exponencial.py --detalhar 0`
 - `--dados CAMINHO`: lê o dataset de outro caminho.
 - `--saida PASTA`: salva os resultados em outra pasta (padrão: `resultados/`).
 - `--semente N`: altera a semente da divisão treino/teste, dos desempates e dos sorteios (padrão: 42).
