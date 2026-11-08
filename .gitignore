@@ -1,0 +1,12 @@
+# Base de dados
+adult.csv
+
+# Ambientes virtuais e cache do Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Ficheiros temporários e do sistema
+.DS_Store
+Thumbs.db
